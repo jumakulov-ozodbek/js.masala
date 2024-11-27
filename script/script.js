@@ -3,8 +3,8 @@ function changeOrder(s, index) {
   }
   
   let s = "acb";
-  let newS = changeOrder(s, [1, 2, 0]);
-  console.log(newS); 
+  let son = changeOrder(s, [1, 2, 0]);
+  console.log(son); 
   
 
 
