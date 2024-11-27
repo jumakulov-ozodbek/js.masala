@@ -1,5 +1,5 @@
-function changeOrder(s, indexes) {
-    return indexes.map(i => s[i]).join("");
+function changeOrder(s, index) {
+    return index.map(i => s[i]).join("");
   }
   
   let s = "acb";
