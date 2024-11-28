@@ -10,8 +10,8 @@
   // }
   
   // let s = "acb";
-  // let son = changeOrder(s, [2, 2, 0]);
-  // // console.log(son);
+  // let son = changeOrder(s, [2, 2, 0 ]);
+  // // // console.log(son);
   // function changeOrder(s, index) {
   //   return index.map(i => s[i]).join("");
   // }
@@ -29,7 +29,7 @@
 //         } else if (/[a-zA-Z]/.test(char)) {
 //             letters.push(char);
 //         }
-//     }
+//     } 
 //     return {
 //         letters: letters.join(''),
 //         numbers: numbers.join('')
@@ -51,22 +51,24 @@
 // }
 // const result = repeatText("abc",3);
 // // console.log(result);  
-// function findLongestWord(sentence) {
-//   const words = sentence.split(' '); 
+
+
+
+// function findLongestWord(find) {
+//   const word = find.split(' '); 
 //   let longestWord = ""; 
 //   for (let i = 0; i < words.length; i++) {
-//       if (words[i].length > longestWord.length) { 
-//           longestWord = words[i]; 
+//       if (word[i].length > longestWord.length) { 
+//           longestWord = word[i]; 
 //       }
 //   }
 
 //   return longestWord; 
 // }
-// const sentence = "hello amazing world";
-// const longestWord = findLongestWord(sentence);
-// console.log(longestWord);
+// const str = "Hello amazing world";
+// const longestWord = findLongestWord(str);
 
-
+// console.log( longestWord); 
 
 
 
