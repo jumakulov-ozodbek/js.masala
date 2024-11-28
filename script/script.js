@@ -62,7 +62,6 @@
 //           longestWord = word[i]; 
 //       }
 //   }
-
 //   return longestWord; 
 // }
 // const str = "Hello amazing world";
