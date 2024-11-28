@@ -19,29 +19,38 @@
   // let s = "acb";
   // let son = changeOrder(s, [0,1,2]);
   // console.log(son);
-  function splitCharactersAndNumbers(input) {
-    const letters = [];
-    const numbers = [];
+//   function splitCharactersAndNumbers(input) {
+//     const letters = [];
+//     const numbers = [];
 
-    for (const char of input) {
-        if (!isNaN(char) && char !== ' ') {
-            numbers.push(char);
-        } else if (/[a-zA-Z]/.test(char)) {
-            letters.push(char);
-        }
-    }
+//     for (const char of input) {
+//         if (!isNaN(char) && char !== ' ') {
+//             numbers.push(char);
+//         } else if (/[a-zA-Z]/.test(char)) {
+//             letters.push(char);
+//         }
+//     }
+//     return {
+//         letters: letters.join(''),
+//         numbers: numbers.join('')
+//     };
+// }
+// const input = "a1b2c3d8d4";
+// const result = splitCharactersAndNumbers(input);
 
-    return {
-        letters: letters.join(''),
-        numbers: numbers.join('')
-    };
-}
+// console.log("Raqamlar:", result.numbers);
+// function repeatText(text,times) {
+
+// let repeatedText = ""; 
 
 
-const input = "a1b2c3d8d4";
-const result = splitCharactersAndNumbers(input);
-
-console.log("Raqamlar:", result.numbers);
+// for (let i = 0; i < times; i++) {
+//     repeatedText += text; 
+// }
+// return repeatedText;
+// }
+// const result = repeatText("abc",3);
+// console.log(result);  
 
 
 
