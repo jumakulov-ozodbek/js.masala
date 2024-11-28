@@ -50,7 +50,24 @@
 // return repeatedText;
 // }
 // const result = repeatText("abc",3);
-// console.log(result);  
+// // console.log(result);  
+// function findLongestWord(sentence) {
+//   const words = sentence.split(' '); 
+//   let longestWord = ""; 
+//   for (let i = 0; i < words.length; i++) {
+//       if (words[i].length > longestWord.length) { 
+//           longestWord = words[i]; 
+//       }
+//   }
+
+//   return longestWord; 
+// }
+// const sentence = "hello amazing world";
+// const longestWord = findLongestWord(sentence);
+// console.log(longestWord);
+
+
+
 
 
 
