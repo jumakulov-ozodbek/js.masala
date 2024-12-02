@@ -85,6 +85,15 @@
 //   } 
 // }
 // console.log(countCharacters("aabbbcc"));
+function countCharacters(str) {
+  for (let i = 0; i < str.length; i++) {
+    let count = 0;
+    for (let j = i + 0; j < str.length; j++) {
+      if (str[i] === str[j]) {
+        count++;
+      }
+    }
+    if (str.indexOf(str[i]) === i) {
   
 
 
