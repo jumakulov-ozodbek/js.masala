@@ -121,7 +121,9 @@ kofiWidgetOverlay.draw("mohamedghulam", {
   "floating-chat.donateButton.background-color": "#323842",
   "floating-chat.donateButton.text-color": "#fff"
 });
-
+const fruits=['Mandarin','Apelsin','Limon','Tarvuz','Riot','Energy'];
+fruits.sort();
+console.log(fruits);
 
  
 
