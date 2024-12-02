@@ -105,6 +105,13 @@
 //  const nom =['','olma', 'anor', 'qovun', 'tarvuz','apelsin'];
 //  nom.push('');
 //  console.log(nom);
+ 
+// const arr = ['olma', 'anor', 'qovun'];
+// arr.unshift('tarvuz');
+// console.log(arr);
 
+ const fruits = ['olma', 'anor', 'qovun', 'tarvuz','apelsin'];
+  fruits.push('banana');
+ console.log(fruits);
  
 
