@@ -85,11 +85,11 @@
 //   } 
 // }
 // console.log(countCharacters("aabbbcc"));
- 
-const arr = [olma,anor,qovun];
-arr.push("tarvuz");
-console.log(arr);
 
+//  mahsulot quwb berdi
+// const arr = ['olma', 'anor', 'qovun'];
+// arr.push('tarvuz');
+// console.log(arr);
 
 
 
