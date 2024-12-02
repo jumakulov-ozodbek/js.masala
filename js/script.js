@@ -90,6 +90,11 @@
 // const arr = ['olma', 'anor', 'qovun'];
 // arr.push('tarvuz');
 // console.log(arr);
+ 
+// const arr = ['olma', 'anor', 'qovun'];
+// arr.pop('tarvuz');
+// console.log(arr);
+
 
 
 
