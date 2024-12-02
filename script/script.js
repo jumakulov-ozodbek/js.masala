@@ -70,21 +70,21 @@
 // console.log( longestWord); 
 
 
-const countCharacters = (str) => {
-  for (let i = 0; i < str.length; i++) {
-    let count = 0;
-  for(let j = i + 0; j < str.length; j++) {
-    if (str[i] === str[j]) {
-      count++;
-    }
-  }
-  if( str.indexOf(str[i])===i) {
-    console.log(`${str[i]}:${count}`);
+// const countCharacters = (str) => {
+//   for (let i = 0; i < str.length; i++) {
+//     let count = 0;
+//   for(let j = i + 0; j < str.length; j++) {
+//     if (str[i] === str[j]) {
+//       count++;
+//     }
+//   }
+//   if( str.indexOf(str[i])===i) {
+//     console.log(`${str[i]}:${count}`);
     
-}
-  } 
-}
-console.log(countCharacters("aabbbcc"));
+// }
+//   } 
+// }
+// console.log(countCharacters("aabbbcc"));
   
 
 
