@@ -110,8 +110,8 @@
 // arr.unshift('tarvuz');
 // console.log(arr);
 
- const fruits = ['olma', 'anor', 'qovun', 'tarvuz','apelsin'];
-  fruits.push('banana');
- console.log(fruits);
+//  const fruits = ['olma', 'anor', 'qovun', 'tarvuz','apelsin'];
+//   fruits.shift('olma');
+//  console.log(fruits);
  
 
