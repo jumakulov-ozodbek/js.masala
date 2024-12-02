@@ -86,8 +86,8 @@
 // }
 // console.log(countCharacters("aabbbcc"));
  
-
-
+const arr = [Nok,olma,anor,qovun];
+arr.push("tarvuz");
 
 
 
