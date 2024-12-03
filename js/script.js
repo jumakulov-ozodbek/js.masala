@@ -129,28 +129,15 @@ const  team= [
     name:"RealMadrid",
     country:"Madrid",
     score:80,
-
   }
-  {
-    name:"Barselona",
-    country:"iSpaniya",
-    score:100,
+  
+  
+];
 
-  }
-  {
-    name:"PSJ",
-    country:"Fransiya",
-    score:40,
+team.sort((a,b)=>b.score - a.score)
+console.log(`$name:${team[0].name} $country:${team[0].country} $score:${team[0].score}`);
 
-  }
-  {
-    name:"Liverpool",
-    country:"Buyuk Britaniya",
-    score:60,
 
-  }
-
-]
 
 
  
