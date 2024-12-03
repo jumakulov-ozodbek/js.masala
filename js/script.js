@@ -124,18 +124,26 @@
 // const fruits=['Mandarin','Apelsin','Limon','Tarvuz','Riot','Energy'];
 // fruits.sort();
 // console.log(fruits);
-const  team= [
-  {
-    name:"RealMadrid",
-    country:"Madrid",
-    score:80,
-  }
-  
-  
-];
+// const  team= [
+//   {
+//     name:"RealMadrid",
+//     country:"Madrid",
+//     score:80,
+//   }
+// ];
+//   team.push({
+//     name1:"Barselona",
+//     country:"ispaniya",
+//     score:110,
+//   })
+//   team.push({
+//     name2:"Liverpool",
+//     country:"Britaniya",
+//   score:150,
+//   })
 
-team.sort((a,b)=>b.score - a.score)
-console.log(`$name:${team[0].name} $country:${team[0].country} $score:${team[0].score}`);
+// team.sort((r,b)=>b.score - r.score)
+// console.log(`$name:${team[0].name} $country:${team[0].country} $score:${team[0].score}`);
 
 
 
