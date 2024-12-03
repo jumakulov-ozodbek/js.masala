@@ -124,7 +124,7 @@
 // const fruits=['Mandarin','Apelsin','Limon','Tarvuz','Riot','Energy'];
 // fruits.sort();
 // console.log(fruits);
-const  team=[
+const  team= [
   {
     name:"RealMadrid",
     country:"Madrid",
