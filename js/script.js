@@ -115,15 +115,43 @@
 //  console.log(fruits);
 
 
-kofiWidgetOverlay.draw("mohamedghulam", {
-  type: "floating-chat",
-  "floating-chat.donateButton.text": "Support me",
-  "floating-chat.donateButton.background-color": "#323842",
-  "floating-chat.donateButton.text-color": "#fff"
-});
-const fruits=['Mandarin','Apelsin','Limon','Tarvuz','Riot','Energy'];
-fruits.sort();
-console.log(fruits);
+// kofiWidgetOverlay.draw("mohamedghulam", {
+//   type: "floating-chat",
+//   "floating-chat.donateButton.text": "Support me",
+//   "floating-chat.donateButton.background-color": "#323842",
+//   "floating-chat.donateButton.text-color": "#fff"
+// });
+// const fruits=['Mandarin','Apelsin','Limon','Tarvuz','Riot','Energy'];
+// fruits.sort();
+// console.log(fruits);
+const  team=[
+  {
+    name:"RealMadrid",
+    country:"Madrid",
+    score:80,
+
+  }
+  {
+    name:"Barselona",
+    country:"iSpaniya",
+    score:100,
+
+  }
+  {
+    name:"PSJ",
+    country:"Fransiya",
+    score:40,
+
+  }
+  {
+    name:"Liverpool",
+    country:"Buyuk Britaniya",
+    score:60,
+
+  }
+
+]
+
 
  
 
