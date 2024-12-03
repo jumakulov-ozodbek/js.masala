@@ -144,13 +144,7 @@
 
 // team.sort((r,b)=>b.score - r.score)
 // console.log(`$name:${team[0].name} $country:${team[0].country} $score:${team[0].score}`);
- const mahsulot[
-  {
-    fruit:"Mandarin",
-    count:5,
-    price:1000,
-  }
- ];
+
 
 
 
