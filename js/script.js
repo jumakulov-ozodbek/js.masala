@@ -151,19 +151,19 @@
 // const quarter=[
 // {
 //   student:"Muhiddin",
-//   price:50,
+//  score:50,
 // },
 // {
 //   student:"Muhammad",
-//   price:40,
+//  score:40,
 // },
 // {
 //   student:"Sarvar",
-//   price:80,
+//  score:80,
 // },
 // {
 //   student:"Husan",
-//   price:20,
+//  score:20,
 // },
 // ]
 // console.log(quarter.sort((a,b)=>b.price-a.price));
