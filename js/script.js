@@ -238,3 +238,23 @@
 // bus.forEach((item)=>{
 //   total+=item.enterned-item.exited;
 // })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
