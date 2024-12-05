@@ -167,25 +167,53 @@
 // },
 // ]
 // console.log(quarter.sort((a,b)=>b.price-a.price));
-const team=[
+// const team=[
+//   {
+//     name:"RealMadrid",
+//     country:"Madrid",
+//     score:180,
+//   },
+//   {
+//     name:"Barselona",
+//     country:"ispaniya",
+//     score:110,
+//   },
+//   {
+//     name:"Liverpool",
+//     country:"Britaniya",
+//     score:150,
+//   },
+// ]
+
+// console.log(team.sort((a,b)=>b.score-a.score));
+
+
+const market=[
   {
-    name:"RealMadrid",
-    country:"Madrid",
-    score:180,
+    name:"Mandarin",
+    price:50,
+    quantity:5,
   },
   {
-    name:"Barselona",
-    country:"ispaniya",
-    score:110,
+    name:"Apelsin",
+    price:40,
+    quantity:5,
   },
   {
-    name:"Liverpool",
-    country:"Britaniya",
-    score:150,
+    name:"Limon",
+    price:80,
+    quantity:20,
   },
-]
-
-
-console.log(team.sort((a,b)=>b.score-a.score));
-
-
+];
+let total=0;
+market.forEach((item)=>{
+  total+=item.price*item.quantity;
+})
+console.log("savatning narxi:",total,"som");
+const budget=20000;
+if(total<=budget){
+  console.log("Savatga qo'shildi.");
+}else{
+  console.log("Savatda qo'shilmadi.");
+}
+console.log("xaridor olgan muhsulotlar:",market);
