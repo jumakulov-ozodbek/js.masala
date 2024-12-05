@@ -167,5 +167,23 @@
 // },
 // ]
 // console.log(quarter.sort((a,b)=>b.price-a.price));
+const team=[
+  {
+    name:"RealMadrid",
+    country:"Madrid",
+    score:80,
+  },
+  {
+    name:"Barselona",
+    country:"ispaniya",
+    score:110,
+  },
+  {
+    name:"Liverpool",
+    country:"Britaniya",
+    score:150,
+  },
+]
+console.log(team.sort((a,b)=>b.score-a.score));
 
 
