@@ -171,7 +171,7 @@ const team=[
   {
     name:"RealMadrid",
     country:"Madrid",
-    score:80,
+    score:180,
   },
   {
     name:"Barselona",
@@ -184,6 +184,7 @@ const team=[
     score:150,
   },
 ]
+
 console.log(team.sort((a,b)=>b.score-a.score));
 
 
