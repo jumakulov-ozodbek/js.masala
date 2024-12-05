@@ -219,3 +219,22 @@
 // }
 // console.log("xaridor olgan muhsulotlar:",market);
 
+// const bus=[
+//   {
+//     enterned:5,
+//     exited:4,
+//   },
+//   {
+//     enterned:12,
+//     exited:7,
+//   },
+//   {
+//     enterned:14,
+//     exited:10,
+//   },
+  
+// ]
+// let total=0;
+// bus.forEach((item)=>{
+//   total+=item.enterned-item.exited;
+// })
