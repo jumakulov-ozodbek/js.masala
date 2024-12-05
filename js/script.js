@@ -148,9 +148,24 @@
 
 
 
-const team [
-  {
-    
-  }
-]
+// const quarter=[
+// {
+//   student:"Muhiddin",
+//   price:50,
+// },
+// {
+//   student:"Muhammad",
+//   price:40,
+// },
+// {
+//   student:"Sarvar",
+//   price:80,
+// },
+// {
+//   student:"Husan",
+//   price:20,
+// },
+// ]
+// console.log(quarter.sort((a,b)=>b.price-a.price));
+
 
