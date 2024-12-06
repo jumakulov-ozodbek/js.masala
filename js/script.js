@@ -357,42 +357,42 @@
 // });
 
 // console.log(`Umumiy daromad: ${totalRevenue}so'm`);
-const basket =[
-  {
-    fruits:"olma",
-    price:{
-      kg:1200,
-      someonePrice:2000,
-    }
-  },
-  {
-    fruits:"olma",
-    price:{
-      kg:1200,
-      someonePrice:2000,
-    }
-  },
-  {
-    vegetables:"sabzi",
-    price:{
-      kg:1000,
-      someonePrice:5000,
-    }
-  },
-  {
-    fruits:"olma",
-    price:{
-      kg:1200,
-      someonePrice:2000,
-    }
-  },
-]
-basket.forEach(item=>{
-  const price = parseFloat(item.price.kg);
-  const discount = parseFloat(item.price.someonePrice);
-  const discountPrice = price - (price * (discount / 100));
-  console.log(`${Object.values(item)[0]}--ning chegirmali narxi: ${discountPrice} so'm`);
-})
+//  const basket =[
+//   {
+//     fruits:"olma",
+//     price:{
+//       kg:1200,
+//       someonePrice:2000,
+//     }
+//   },
+//   {
+//     fruits:"olma",
+//     price:{
+//       kg:1200,
+//       someonePrice:2000,
+//     }
+//   },
+//   {
+//     vegetables:"sabzi",
+//     price:{
+//       kg:1000,
+//       someonePrice:5000,
+//     }
+//   },
+//   {
+//     fruits:"olma",
+//     price:{
+//       kg:1200,
+//       someonePrice:2000,
+//     }
+//   },
+// ]
+// basket.forEach(item=>{
+//   const price = parseFloat(item.price.kg);
+//   const discount = parseFloat(item.price.someonePrice);
+//   const discountPrice = price - (price * (discount / 100));
+//   console.log(`${Object.values(item)[0]}--ning chegirmali narxi: ${discountPrice} so'm`);
+// })
 
 
 
