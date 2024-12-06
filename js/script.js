@@ -393,25 +393,31 @@
 //   const discountPrice = price - (price * (discount / 100));
 //   console.log(`${Object.values(item)[0]}--ning chegirmali narxi: ${discountPrice} so'm`);
 // })
-// Savatdagi mahsulotlar obyekti
-// const savat = {
-//   olma: { 
-//     narx: 5000, 
-//     ssoni: 2 },
-//   banan: { narx: 3000, soni: 3 },
-//   apelsin: { narx: 4000, soni: 1 },
-// };
 
-// // 1. Savatning umumiy narxini hisoblash
-// function umumiyNarx(savat) {
-//   let jami = 0;
-//   for (let mahsulot in savat) {
-//     jami += savat[mahsulot].narx * savat[mahsulot].soni;
-//   }
-//   return jami;
-// }
-let a=5;
-console.log((true+false));
+const savat = {
+  olma: { 
+    narx: 5000, 
+    soni: 2 
+  },
+  banan: {
+     narx: 3000,
+      soni: 3 
+    },
+  apelsin: {
+     narx: 4000,
+     soni: 1
+     },
+};
+
+function umumiyNarx(savat) {
+  let total = 0;
+  for (let mahsulot in savat) {
+    total += savat[mahsulot].narx * savat[mahsulot].soni;
+  }
+  return total;
+}
+console.log(umumiyNarx(savat));
+
 
 
 
