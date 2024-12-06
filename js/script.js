@@ -355,6 +355,7 @@ movies.forEach(movie => {
   totalRevenue += movieRevenue;
 
 });
+
 console.log(`Umumiy daromad: ${totalRevenue}so'm`);
 
 
