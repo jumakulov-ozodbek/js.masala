@@ -291,22 +291,27 @@ const market=[
   {
     apple:"olma",
     price:"1200",
+    discount:"10%",
   },
   {
     pear:"nok",
     price:"1300",
+    discount:"10%",
   },
   {
     grapes:"uzum",
     price:"1400",
+    discount:"10%",
   },
   {
     banana:"banan",
     price:"1500",
+    discount:"10%",
   },
   {
     mandarin:"mandarin",
     price:"1600",
+    discount:"10%",
   },
 ]
 
