@@ -258,29 +258,41 @@
 //   console.log(`${index+1}-bekatda chiqqan yo'lovchilar soni:${stop.exited}`);
 // })
   
-// Xodimlarning ma'lumotlari
-// const employees = [
-//   { name: "Ali", 
-//     dailySalary: 80,
-//      workingDays: 22 },
-//   { name: "Vali", 
-//     dailySalary: 40, 
-//     workingDays: 20 },
-//   { name: "Guli", 
-//     dailySalary: 60, 
-//     workingDays: 25 },
-// ];
 
-// employees.forEach(employee => {
-//   const monthlySalary = employee.dailySalary * employee.workingDays;
-//   console.log(`${employee.name}ning oylik maoshi: ${monthlySalary} USD`);
-// });
-const market=[
+const employees = [
   {
-    fruits:"olma",
-    price:"1200",
-  }
-]
+     name: "Atham",
+    dailySalary: 50,
+    workingDays: 22,
+    bonuses: 100,
+    deductions: 50 
+      },
+    {
+       name: "Bonur",
+      dailySalary: 40,
+      workingdays: 20, 
+      bonuses: 50,
+      deductions: 30
+     },
+    { 
+      name: "Bekzod", 
+      dailySalary: 60,
+      workingDays: 25,
+      bonuses: 150,
+      deductions: 10,
+     },
+];
+
+employees.forEach(employee => {
+  const monthlySalary = (employee.dailySalary * employee.workingDays) + employee.bonuses - employee.deductions;
+  console.log(`${employee.name}ning oylik maoshi (bonus va chegirma bilan): ${monthlySalary} USD`);
+});
+// const market=[
+//   {
+//     fruits:"olma",
+//     price:"1200",
+//   }
+
 
 
 
