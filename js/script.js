@@ -387,7 +387,6 @@ const market =[
     }
   },
 ]
-console.log(``);
 
 
 
