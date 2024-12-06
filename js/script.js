@@ -240,24 +240,47 @@
 // })
 
 
-const stops=[
-  {
-    entered:5,
-    exited:2,
-  },
-  {
-    entered:8,
-    exited:3,
-  },
-  {
-    entered:10,
-    exited:4,
-  },
-]
-stops.forEach((stop,index)=>{
-  console.log(`${index+1}-bekatda chiqqan yo'lovchilar soni:${stop.exited}`);
-})
+// const stops=[
+//   {
+//     entered:5,
+//     exited:2,
+//   },
+//   {
+//     entered:8,
+//     exited:3,
+//   },
+//   {
+//     entered:10,
+//     exited:4,
+//   },
+// ]
+// stops.forEach((stop,index)=>{
+//   console.log(`${index+1}-bekatda chiqqan yo'lovchilar soni:${stop.exited}`);
+// })
   
+// Xodimlarning ma'lumotlari
+// const employees = [
+//   { name: "Ali", 
+//     dailySalary: 80,
+//      workingDays: 22 },
+//   { name: "Vali", 
+//     dailySalary: 40, 
+//     workingDays: 20 },
+//   { name: "Guli", 
+//     dailySalary: 60, 
+//     workingDays: 25 },
+// ];
+
+// employees.forEach(employee => {
+//   const monthlySalary = employee.dailySalary * employee.workingDays;
+//   console.log(`${employee.name}ning oylik maoshi: ${monthlySalary} USD`);
+// });
+const market=[
+  {
+    fruits:"olma",
+    price:"1200",
+  }
+]
 
 
 
