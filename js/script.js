@@ -357,7 +357,36 @@
 // });
 
 // console.log(`Umumiy daromad: ${totalRevenue}so'm`);
-const market =
+const market =[
+  {
+    fruits:"olma",
+    price:{
+      kg:1200,
+      someonePrice:2000,
+    }
+  },
+  {
+    fruits:"olma",
+    price:{
+      kg:1200,
+      someonePrice:2000,
+    }
+  },
+  {
+    vegetables:"sabzi",
+    price:{
+      kg:1000,
+      someonePrice:5000,
+    }
+  },
+  {
+    fruits:"olma",
+    price:{
+      kg:1200,
+      someonePrice:2000,
+    }
+  },
+]
 
 
 
