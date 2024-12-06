@@ -259,7 +259,7 @@
 // })
   
 
-const employees = [
+ const employees = [
   {
      name: "Atham",
     dailySalary: 50,
@@ -285,7 +285,7 @@ const employees = [
 
 employees.forEach(employee => {
   const monthlySalary = (employee.dailySalary * employee.workingDays) + employee.bonuses - employee.deductions;
-  console.log(`${employee.name}ning oylik maoshi (bonus va chegirma bilan): ${monthlySalary} USD`);
+  console.log(`${employee.name}ning oylik maoshi (bonus va chegirmalar bilan): ${monthlySalary} USD`);
 });
 // const market=[
 //   {
