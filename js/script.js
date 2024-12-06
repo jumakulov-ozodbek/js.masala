@@ -387,6 +387,12 @@ const market =[
     }
   },
 ]
+market.forEach(item=>{
+  const price = parseFloat(item.price.kg);
+  const discount = parseFloat(item.price.someonePrice);
+  const discountPrice = price - (price * (discount / 100));
+  console.log(`${Object.values(item)[0]}--ning chegirmali narxi: ${discountPrice} so'm`);
+})
 
 
 
