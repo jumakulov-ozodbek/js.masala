@@ -259,34 +259,34 @@
 // })
   
 
- const employees = [
-  {
-     name: "Atham",
-    dailySalary: 50,
-    workingDays: 22,
-    bonuses: 100,
-    deductions: 50 
-      },
-    {
-       name: "Bonur",
-      dailySalary: 40,
-      workingDays: 20, 
-      bonuses: 50,
-      deductions: 30
-     },
-    { 
-      name: "Bekzod", 
-      dailySalary: 60,
-      workingDays: 25,
-      bonuses: 150,
-      deductions: 10,
-     },
-];
+//  const employees = [
+//   {
+//      name: "Atham",
+//     dailySalary: 50,
+//     workingDays: 22,
+//     bonuses: 100,
+//     deductions: 50 
+//       },
+//     {
+//        name: "Bonur",
+//       dailySalary: 40,
+//       workingDays: 20, 
+//       bonuses: 50,
+//       deductions: 30
+//      },
+//     { 
+//       name: "Bekzod", 
+//       dailySalary: 60,
+//       workingDays: 25,
+//       bonuses: 150,
+//       deductions: 10,
+//      },
+// ];
 
-employees.forEach(employee => {
-  const monthlySalary = (employee.dailySalary * employee.workingDays) + employee.bonuses - employee.deductions;
-  console.log(`${employee.name}ning oylik maoshi (bonus va chegirmalar bilan): ${monthlySalary} USD`);
-});
+// employees.forEach(employee => {
+//   const monthlySalary = (employee.dailySalary * employee.workingDays) + employee.bonuses - employee.deductions;
+//   console.log(`${employee.name}ning oylik maoshi (bonus va chegirmalar bilan): ${monthlySalary} USD`);
+// });
 // const market=[
 //   {
 //     apple:"olma",
@@ -322,42 +322,42 @@ employees.forEach(employee => {
 //   console.log(`${Object.values(item)[0]}--ning chegirmali narxi: ${discountPrice} so'm`);
 // });
 
- const movies = [
-  {
-    name: "Uyda yolgiz1",
-    ticketPrice: 18, 
-    showDuration: 30, 
-    sessionsPerDay: 5,
-    totalViewers: 0 
-  },
-  {
-    name: "Uyda yolgiz2",
-    ticketPrice: 20,
-    totalViewers: 12000,
-    showDuration: 45,
-    sessionsPerDay: 6
-  },
-  {
-    name: "Uyda yolgiz3",
-    ticketPrice: 10,
-    totalViewers: 7000,
-    showDuration: 40,
-    sessionsPerDay: 4
-  }
-];
-let totalRevenue = 0;
+//  const movies = [
+//   {
+//     name: "Uyda yolgiz1",
+//     ticketPrice: 18, 
+//     showDuration: 30, 
+//     sessionsPerDay: 5,
+//     totalViewers: 0 
+//   },
+//   {
+//     name: "Uyda yolgiz2",
+//     ticketPrice: 20,
+//     totalViewers: 12000,
+//     showDuration: 45,
+//     sessionsPerDay: 6
+//   },
+//   {
+//     name: "Uyda yolgiz3",
+//     ticketPrice: 10,
+//     totalViewers: 7000,
+//     showDuration: 40,
+//     sessionsPerDay: 4
+//   }
+// ];
+// let totalRevenue = 0;
 
-movies.forEach(movie => {
-  const dailyViewers = movie.totalViewers / movie.sessionsPerDay; 
-  const sessionRevenue = movie.ticketPrice * dailyViewers; 
-  const movieRevenue = sessionRevenue * movie.sessionsPerDay;
+// movies.forEach(movie => {
+//   const dailyViewers = movie.totalViewers / movie.sessionsPerDay; 
+//   const sessionRevenue = movie.ticketPrice * dailyViewers; 
+//   const movieRevenue = sessionRevenue * movie.sessionsPerDay;
 
-  totalRevenue += movieRevenue;
+//   totalRevenue += movieRevenue;
 
-});
+// });
 
-console.log(`Umumiy daromad: ${totalRevenue}so'm`);
-
+// console.log(`Umumiy daromad: ${totalRevenue}so'm`);
+const market =
 
 
 
