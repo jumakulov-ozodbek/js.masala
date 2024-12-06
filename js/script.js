@@ -321,7 +321,8 @@
 //   const discountPrice = price - (price * (discount / 100));
 //   console.log(`${Object.values(item)[0]}--ning chegirmali narxi: ${discountPrice} so'm`);
 // });
-const movies = [
+
+ const movies = [
   {
     name: "Uyda yolgiz1",
     ticketPrice: 18, 
