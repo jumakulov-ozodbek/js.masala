@@ -416,7 +416,7 @@ function umumiyNarx(savat) {
   }
   return total;
 }
-console.log(umumiyNarx(savat));
+
 
 
 
