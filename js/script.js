@@ -291,7 +291,24 @@ const market=[
   {
     fruits:"olma",
     price:"1200",
-  }
+  },
+  {
+    fruits:"olma",
+    price:"1200",
+  },
+  {
+    fruits:"olma",
+    price:"1200",
+  },
+  {
+    fruits:"olma",
+    price:"1200",
+  },
+  {
+    fruits:"olma",
+    price:"1200",
+  },
+]
 
 
 
