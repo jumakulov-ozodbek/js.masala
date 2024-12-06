@@ -289,24 +289,24 @@
 // });
 const market=[
   {
-    fruits:"olma",
+    apple:"olma",
     price:"1200",
   },
   {
-    fruits:"olma",
-    price:"1200",
+    pear:"nok",
+    price:"1300",
   },
   {
-    fruits:"olma",
-    price:"1200",
+    grapes:"uzum",
+    price:"1400",
   },
   {
-    fruits:"olma",
-    price:"1200",
+    banana:"banan",
+    price:"1500",
   },
   {
-    fruits:"olma",
-    price:"1200",
+    mandarin:"mandarin",
+    price:"1600",
   },
 ]
 
