@@ -321,6 +321,41 @@
 //   const discountPrice = price - (price * (discount / 100));
 //   console.log(`${Object.values(item)[0]}--ning chegirmali narxi: ${discountPrice} so'm`);
 // });
+const movies = [
+  {
+    name: "Uyda yolgiz1",
+    ticketPrice: 18, 
+    showDuration: 30, 
+    sessionsPerDay: 5,
+    totalViewers: 0 
+  },
+  {
+    name: "Uyda yolgiz2",
+    ticketPrice: 20,
+    totalViewers: 12000,
+    showDuration: 45,
+    sessionsPerDay: 6
+  },
+  {
+    name: "Uyda yolgiz3",
+    ticketPrice: 10,
+    totalViewers: 7000,
+    showDuration: 40,
+    sessionsPerDay: 4
+  }
+];
+let totalRevenue = 0;
+
+movies.forEach(movie => {
+  const dailyViewers = movie.totalViewers / movie.sessionsPerDay; 
+  const sessionRevenue = movie.ticketPrice * dailyViewers; 
+  const movieRevenue = sessionRevenue * movie.sessionsPerDay;
+
+  totalRevenue += movieRevenue;
+
+});
+console.log(`Umumiy daromad: ${totalRevenue}so'm`);
+
 
 
 
