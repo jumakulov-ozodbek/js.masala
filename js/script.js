@@ -357,7 +357,7 @@
 // });
 
 // console.log(`Umumiy daromad: ${totalRevenue}so'm`);
-const market =[
+const basket =[
   {
     fruits:"olma",
     price:{
@@ -387,7 +387,7 @@ const market =[
     }
   },
 ]
-market.forEach(item=>{
+basket.forEach(item=>{
   const price = parseFloat(item.price.kg);
   const discount = parseFloat(item.price.someonePrice);
   const discountPrice = price - (price * (discount / 100));
