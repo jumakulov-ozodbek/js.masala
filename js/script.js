@@ -287,33 +287,41 @@
 //   const monthlySalary = (employee.dailySalary * employee.workingDays) + employee.bonuses - employee.deductions;
 //   console.log(`${employee.name}ning oylik maoshi (bonus va chegirmalar bilan): ${monthlySalary} USD`);
 // });
-const market=[
-  {
-    apple:"olma",
-    price:"1200",
-    discount:"10%",
-  },
-  {
-    pear:"nok",
-    price:"1300",
-    discount:"10%",
-  },
-  {
-    grapes:"uzum",
-    price:"1400",
-    discount:"10%",
-  },
-  {
-    banana:"banan",
-    price:"1500",
-    discount:"10%",
-  },
-  {
-    mandarin:"mandarin",
-    price:"1600",
-    discount:"10%",
-  },
-]
+// const market=[
+//   {
+//     apple:"olma",
+//     price:"1200",
+//     discount:"10%",
+//   },
+//   {
+//     pear:"nok",
+//     price:"1300",
+//     discount:"10%",
+//   },
+//   {
+//     grapes:"uzum",
+//     price:"1400",
+//     discount:"10%",
+//   },
+//   {
+//     banana:"banan",
+//     price:"1500",
+//     discount:"10%",
+//   },
+//   {
+//     mandarin:"mandarin",
+//     price:"1600",
+//     discount:"10%",
+//   },
+// ]
+
+// market.forEach(item=>{
+//   const price = parseFloat(item.price);
+//   const discount = parseFloat(item.discount);
+//   const discountPrice = price - (price * (discount / 100));
+//   console.log(`${Object.values(item)[0]}--ning chegirmali narxi: ${discountPrice} so'm`);
+// });
+
 
 
 
