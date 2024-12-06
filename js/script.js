@@ -259,39 +259,39 @@
 // })
   
 
- const employees = [
-  {
-     name: "Atham",
-    dailySalary: 50,
-    workingDays: 22,
-    bonuses: 100,
-    deductions: 50 
-      },
-    {
-       name: "Bonur",
-      dailySalary: 40,
-      workingdays: 20, 
-      bonuses: 50,
-      deductions: 30
-     },
-    { 
-      name: "Bekzod", 
-      dailySalary: 60,
-      workingDays: 25,
-      bonuses: 150,
-      deductions: 10,
-     },
-];
-
-employees.forEach(employee => {
-  const monthlySalary = (employee.dailySalary * employee.workingDays) + employee.bonuses - employee.deductions;
-  console.log(`${employee.name}ning oylik maoshi (bonus va chegirmalar bilan): ${monthlySalary} USD`);
-});
-// const market=[
+//  const employees = [
 //   {
-//     fruits:"olma",
-//     price:"1200",
-//   }
+//      name: "Atham",
+//     dailySalary: 50,
+//     workingDays: 22,
+//     bonuses: 100,
+//     deductions: 50 
+//       },
+//     {
+//        name: "Bonur",
+//       dailySalary: 40,
+//       workingDays: 20, 
+//       bonuses: 50,
+//       deductions: 30
+//      },
+//     { 
+//       name: "Bekzod", 
+//       dailySalary: 60,
+//       workingDays: 25,
+//       bonuses: 150,
+//       deductions: 10,
+//      },
+// ];
+
+// employees.forEach(employee => {
+//   const monthlySalary = (employee.dailySalary * employee.workingDays) + employee.bonuses - employee.deductions;
+//   console.log(`${employee.name}ning oylik maoshi (bonus va chegirmalar bilan): ${monthlySalary} USD`);
+// });
+const market=[
+  {
+    fruits:"olma",
+    price:"1200",
+  }
 
 
 
