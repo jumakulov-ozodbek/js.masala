@@ -240,6 +240,24 @@
 // })
 
 
+const stops=[
+  {
+    entered:5,
+    exited:2,
+  },
+  {
+    entered:8,
+    exited:3,
+  },
+  {
+    entered:10,
+    exited:4,
+  },
+]
+stops.forEach((stop,index)=>{
+  console.log(`${index+1}-bekatda chiqqan yo'lovchilar soni:${stop.exited}`);
+})
+  
 
 
 
