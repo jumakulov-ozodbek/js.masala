@@ -394,32 +394,59 @@
 //   console.log(`${Object.values(item)[0]}--ning chegirmali narxi: ${discountPrice} so'm`);
 // })
 
-const savat = {
-  olma: { 
-    narx: 5000, 
-    soni: 2 
-  },
-  banan: {
-     narx: 3000,
-      soni: 3 
-    },
-  apelsin: {
-     narx: 4000,
-     soni: 1
-     },
+// const savat = {
+//   olma: { 
+//     narx: 5000, 
+//     soni: 2 
+//   },
+//   banan: {
+//      narx: 3000,
+//       soni: 3 
+//     },
+//   apelsin: {
+//      narx: 4000,
+//      soni: 1
+//      },
+// };
+
+// function umumiyNarx(savat) {
+//   let total = 0;
+//   for (let mahsulot in savat) {
+//     total += savat[mahsulot].narx * savat[mahsulot].soni;
+//   }
+//   return total;
+// }
+
+const user = []; 
+const addUser = (userData) => {
+  user.push(userData);
+  console.log(`${userData.name} ${userData.lastName} muvaffaqiyatli qo'shildi.`);
 };
 
-function umumiyNarx(savat) {
-  let total = 0;
-  for (let mahsulot in savat) {
-    total += savat[mahsulot].narx * savat[mahsulot].soni;
+const deleteUser = (email) => {
+  const delete_user = user.findIndex((req) => req.email === email); 
+  if (delete_user !== -1) {
+    const [deleted_user] = user.splice(delete_user, 1); 
+    console.log(deleted_user); 
+    console.log(` ${deleted_user.name} ${deleted_user.lastName} muvaffaqiyatli o'chirildi.`);
+  } else {
+    console.log(`Email: ${email} topilmadi.`);
   }
-  return total;
-}
+};
 
+addUser({
+  name: "Javohir",
+  lastName: "Umarov",
+  email: "umarov@example.com",
+});
 
+addUser({
+  name: "Ozodbek",
+  lastName: "Jumaqulov",
+  email: "ozodbekjumaqulo@example.com",
+});
 
-
+deleteUser("ozodbekjumaqulo@example.com");
 
 
 
