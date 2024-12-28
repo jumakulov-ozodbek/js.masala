@@ -417,36 +417,38 @@
 //   return total;
 // }
 
-const user = []; 
-const addUser = (userData) => {
-  user.push(userData);
-  console.log(`${userData.name} ${userData.lastName} muvaffaqiyatli qo'shildi.`);
-};
+//   const user = []; 
+// const addUser = (userData) => {
+//   user.push(userData);
+//   console.log(`${userData.name} ${userData.lastName} muvaffaqiyatli qo'shildi.`);
+// };
 
-const deleteUser = (email) => {
-  const delete_user = user.findIndex((req) => req.email === email); 
-  if (delete_user !== -1) {
-    const [deleted_user] = user.splice(delete_user, 1); 
-    console.log(deleted_user); 
-    console.log(` ${deleted_user.name} ${deleted_user.lastName} muvaffaqiyatli o'chirildi.`);
-  } else {
-    console.log(`Email: ${email} topilmadi.`);
-  }
-};
+// const deleteUser = (email) => {
+//   const delete_user = user.findIndex((req) => req.email === email); 
+//   if (delete_user !== -1) {
+//     const [deleted_user] = user.splice(delete_user, 1); 
+//     console.log(deleted_user); 
+//     console.log(` ${deleted_user.name} ${deleted_user.lastName} muvaffaqiyatli o'chirildi.`);
+//   } else {
+//     console.log(`Email: ${email} topilmadi.`);
+//   }
+// };
 
-addUser({
-  name: "Javohir",
-  lastName: "Umarov",
-  email: "umarov@example.com",
-});
+// addUser({
+//   name: "Javohir",
+//   lastName: "Umarov",
+//   email: "umarov@example.com",
+// });
 
-addUser({
-  name: "Ozodbek",
-  lastName: "Jumaqulov",
-  email: "ozodbekjumaqulo@example.com",
-});
+// addUser({
+//   name: "Ozodbek",
+//   lastName: "Jumaqulov",
+//   email: "ozodbekjumaqulo@example.com",
+// });
 
-deleteUser("ozodbekjumaqulo@example.com");
+// deleteUser("ozodbekjumaqulo@example.com");
+v
+console.log(a);
 
 
 
